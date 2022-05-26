@@ -72,12 +72,12 @@ favoriteRestaurantMonica.add("Sushi");
 favoriteRestaurantMonica.add("Pancake");
 favoriteRestaurantMonica.add("Eggy");
 favoriteRestaurantMonica.add("Tempura");
-favoriteRestaurantMonica.add("Bento");
-favoriteRestaurantMonica.add("Eggy");
+//favoriteRestaurantMonica.add("Bento");
+//favoriteRestaurantMonica.add("Eggy");
 favoriteRestaurantMonica.add("Padang");
 favoriteRestaurantMonica.add("tteok");
-favoriteRestaurantMonica.add("Sushi");
-favoriteRestaurantMonica.add("Sushi");
+//favoriteRestaurantMonica.add("Sushi");
+//favoriteRestaurantMonica.add("Sushi");
 
 //Wendy's Favorite Restaurant
 let favoriteRestaurantWendy = new Set();
@@ -88,7 +88,7 @@ favoriteRestaurantWendy.add("Pancake");
 favoriteRestaurantWendy.add("Padang");
 favoriteRestaurantWendy.add("Katsu");
 favoriteRestaurantWendy.add("Geprek");
-favoriteRestaurantWendy.add("Pancake");
+//favoriteRestaurantWendy.add("Pancake");
 favoriteRestaurantWendy.add("Eggy");
 
 const firstUser = {
