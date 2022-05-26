@@ -93,6 +93,7 @@ favoriteRestaurantWendy.add("Eggy");
 
 const firstUser = {
     name: "Monica",
+    gender:"Female"
     age:"17",
     email:"monica@dingdong.com",
     favoriteColor: favoriteColorMonica,
@@ -103,6 +104,7 @@ const firstUser = {
 
 const secondUser = {
     name: "Wendy",
+    gender:"Male",
     age: "23",
     email:"wendy@dingdong.com",
     favoriteColor: favoriteColorWendy,
