@@ -16,13 +16,8 @@ favoriteColorWendy.add("Grey");
 let isHavePet = new Map();
 isHavePet.set('Monica','Yes');
 isHavePet.set('Wendy','No');
-//education
-//  function education(name, city, graduate){
-//      this.name = name;
-//      this.city = city;
-//      this.graduate = graduate;
-    
-//  }
+
+//Monica's Education
  const eduMonica = {
      name: "SD 01",
      city: "Jakarta",
@@ -43,28 +38,24 @@ const eduMonica3 = {
  educationMonica.push(eduMonica2);
  educationMonica.push(eduMonica3);
 
-// const educationMonica = [];
-// educationMonica.push(JSON.parse(JSON.stringify(eduMonica)));
-// educationMonica.push(JSON.parse(JSON.stringify(eduMonica2)));
-// educationMonica.push(JSON.parse(JSON.stringify(eduMonica3)));
-
 // Wendy's Education
 const eduWendy = {
     name: "SD 02",
     city: "Jakarta",
-    graduate: "2016"
+    graduate: "2010"
 }
 const eduWendy2 = {
    name: "SMP 03",
-   city: "Jakarta",
-   graduate: "2019"
+   city: "Bogor",
+   graduate: "2013"
 } 
 const eduWendy3 = {
-   name: "SMA 04",
-   city: "Tangerang"
+   name: "SMA 01",
+   city: "Surabaya",
+   graduate: "2016"
 }
 const eduWendy4 = {
-    name: "Universitas",
+    name: "Universitas Maju",
     city: "Tangerang"
  }
 
@@ -73,7 +64,6 @@ educationWendy.push(eduWendy);
 educationWendy.push(eduWendy2);
 educationWendy.push(eduWendy3);
 educationWendy.push(eduWendy4);
-
 
 //Monica's Favorite Restaurant
 let favoriteRestaurantMonica = new Set();
@@ -101,19 +91,18 @@ favoriteRestaurantWendy.add("Geprek");
 favoriteRestaurantWendy.add("Pancake");
 favoriteRestaurantWendy.add("Eggy");
 
-
+//User Monica, object education pakai stringify sehingga berubah jadi string
 const firstUser = {
     name: "Monica",
     age:"17",
     email:"monica@dingdong.com",
     favoriteColor: favoriteColorMonica,
     isHavePet: isHavePet.get('Monica'),
-    education: educationMonica,
+    education: JSON.stringify(educationMonica),
     favoriteRestaurant: favoriteRestaurantMonica
 };
 
-console.log(firstUser);
-
+//User Wendy, value pada object education berbentuk object
 const secondUser = {
     name: "Wendy",
     age: "23",
@@ -125,7 +114,6 @@ const secondUser = {
     
 };
 
-console.log(secondUser);
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
 users.push(firstUser);
