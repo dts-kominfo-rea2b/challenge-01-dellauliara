@@ -91,18 +91,16 @@ favoriteRestaurantWendy.add("Geprek");
 favoriteRestaurantWendy.add("Pancake");
 favoriteRestaurantWendy.add("Eggy");
 
-//User Monica, object education pakai stringify sehingga berubah jadi string
 const firstUser = {
     name: "Monica",
     age:"17",
     email:"monica@dingdong.com",
     favoriteColor: favoriteColorMonica,
     isHavePet: isHavePet.get('Monica'),
-    education: JSON.stringify(educationMonica),
+    education: educationMonica,
     favoriteRestaurant: favoriteRestaurantMonica
 };
 
-//User Wendy, value pada object education berbentuk object
 const secondUser = {
     name: "Wendy",
     age: "23",
