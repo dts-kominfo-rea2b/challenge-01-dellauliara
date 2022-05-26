@@ -1,17 +1,8 @@
 // TODO: Buatlah data dari kedua user di sini
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
-//Monica's Favorite Color
-let favoriteColorMonica = new Set();
-favoriteColorMonica.add("Yellow");
-favoriteColorMonica.add("Pink");
-favoriteColorMonica.add("White");
-favoriteColorMonica.add("Purple");
-//Wendy's Favorite Color
-let favoriteColorWendy = new Set();
-favoriteColorWendy.add("Blue");
-favoriteColorWendy.add("Black");
-favoriteColorWendy.add("Grey");
+
+
 //isHavePet
 let isHavePet = new Map();
 isHavePet.set('Monica','Yes');
@@ -89,8 +80,7 @@ const secondUser = {
     favoriteColor: [
         'Blue', 'Black', 'Grey'
     ],
-    favoriteColor: favoriteColorWendy,
-    isHavePet: isHavePet.get('Wendy'),
+    sHavePet: isHavePet.get('Wendy'),
     education: educationWendy,    
     favoriteRestaurant: [
         'Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Eggy'
