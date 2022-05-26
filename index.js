@@ -65,52 +65,35 @@ educationWendy.push(eduWendy2);
 educationWendy.push(eduWendy3);
 educationWendy.push(eduWendy4);
 
-//Monica's Favorite Restaurant
-let favoriteRestaurantMonica = new Set();
-favoriteRestaurantMonica.add("Bento");
-favoriteRestaurantMonica.add("Sushi");
-favoriteRestaurantMonica.add("Pancake");
-favoriteRestaurantMonica.add("Eggy");
-favoriteRestaurantMonica.add("Tempura");
-//favoriteRestaurantMonica.add("Bento");
-//favoriteRestaurantMonica.add("Eggy");
-favoriteRestaurantMonica.add("Padang");
-favoriteRestaurantMonica.add("tteok");
-//favoriteRestaurantMonica.add("Sushi");
-//favoriteRestaurantMonica.add("Sushi");
-
-//Wendy's Favorite Restaurant
-let favoriteRestaurantWendy = new Set();
-favoriteRestaurantWendy.add("Tempura");
-favoriteRestaurantWendy.add("Bento");
-favoriteRestaurantWendy.add("Sushi");
-favoriteRestaurantWendy.add("Pancake");
-favoriteRestaurantWendy.add("Padang");
-favoriteRestaurantWendy.add("Katsu");
-favoriteRestaurantWendy.add("Geprek");
-//favoriteRestaurantWendy.add("Pancake");
-favoriteRestaurantWendy.add("Eggy");
 
 const firstUser = {
     name: "Monica",
     gender:"Female",
     age:"17",
     email:"monica@dingdong.com",
-    favoriteColor: favoriteColorMonica,
+    favoriteColor: [
+        'Yellow', 'Pink', 'White', 'Purple'
+    ],
     isHavePet: isHavePet.get('Monica'),
     education: educationMonica,
-    favoriteRestaurant: favoriteRestaurantMonica
+    favoriteRestaurant: [
+        'Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Padang', 'Tteok'
+    ]
 };
 
 const secondUser = {
     name: "Wendy",
     gender:"Male",
     age: "23",
-    email:"wendy@dingdong.com",
+    favoriteColor: [
+        'Blue', 'Black', 'Grey'
+    ],
     favoriteColor: favoriteColorWendy,
     isHavePet: isHavePet.get('Wendy'),
     education: educationWendy,    
-    favoriteRestaurant: favoriteRestaurantWendy,
+    favoriteRestaurant: [
+        'Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Eggy'
+    ]
     
 };
 
