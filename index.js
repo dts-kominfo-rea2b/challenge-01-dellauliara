@@ -85,6 +85,7 @@ const secondUser = {
     name: "Wendy",
     gender:"Male",
     age: "23",
+    email:"wendy@dingdong.com",
     favoriteColor: [
         'Blue', 'Black', 'Grey'
     ],
