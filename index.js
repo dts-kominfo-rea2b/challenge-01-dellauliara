@@ -80,7 +80,7 @@ const secondUser = {
     favoriteColor: [
         'Blue', 'Black', 'Grey'
     ],
-    sHavePet: isHavePet.get('Wendy'),
+    isHavePet: isHavePet.get('Wendy'),
     education: educationWendy,    
     favoriteRestaurant: [
         'Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Eggy'
