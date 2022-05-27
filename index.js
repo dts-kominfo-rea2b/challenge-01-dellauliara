@@ -56,6 +56,39 @@ educationWendy.push(eduWendy2);
 educationWendy.push(eduWendy3);
 educationWendy.push(eduWendy4);
 
+// fav resto
+const favoriteRestaurantMonica = Array.from(
+    new Set([
+      "Bento",
+      "Sushi",
+      "Pancake",
+      "Eggy",
+      "Tempura",
+      "Bento",
+      "Eggy",
+      "Padang",
+      "Tteok",
+      "Sushi",
+      "Sushi"
+    ])
+)
+  
+
+
+const favoriteRestaurantWendy = Array.from(
+    new Set([
+        "Tempura",
+        "Bento",
+        "Sushi",
+        "Pancake",
+        "Padang",
+        "Katsu",
+        "Geprek",
+        "Pancake",
+        "Eggy"
+    ])
+)
+
 
 const firstUser = {
     name: "Monica",
@@ -67,9 +100,7 @@ const firstUser = {
     ],
     isHavePet: isHavePet.get('Monica'),
     education: educationMonica,
-    favoriteRestaurant: [
-        'Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Padang', 'Tteok'
-    ]
+    favoriteRestaurant: favoriteRestaurantMonica
 };
 
 const secondUser = {
@@ -82,10 +113,7 @@ const secondUser = {
     ],
     isHavePet: isHavePet.get('Wendy'),
     education: educationWendy,    
-    favoriteRestaurant: [
-        'Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Eggy'
-    ]
-    
+    favoriteRestaurant: favoriteRestaurantWendy    
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
